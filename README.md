@@ -142,3 +142,27 @@ Encrypt transport (TLS)
 Consider at-rest encryption for sensitive data
 
 Provide user with data-deletion controls
+---
+
+## Project Structure
+
+- `client/` – React + TypeScript progressive web app prototype
+- `server/` – Node.js Express server handling uploads
+
+To run the client in development mode:
+
+```bash
+cd client
+npm install
+npm run start
+```
+
+To run the server:
+
+```bash
+cd server
+npm install
+npm start
+```
+
+Both parts run on ports 3000 (client) and 3001 (server) by default.
